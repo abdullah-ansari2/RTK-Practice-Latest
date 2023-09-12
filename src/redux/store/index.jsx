@@ -6,7 +6,7 @@ import todoReducer from '../slices/todoSlice'
 // Multiple Slices
 const rootReducer = {
     counter: counterReducer,
-    todos: todoReducer  //not in using 
+    todos: todoReducer  //Not in use, just for reference
 };
 
 const store = configureStore({
