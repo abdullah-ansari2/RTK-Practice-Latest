@@ -15,7 +15,9 @@ const store = configureStore({
 
 // Single Slice
 // const store = configureStore({
-//     counter: counterReducer
+//     reducer: {
+//         counter: counterReducer
+//     }
 // });
 
 export default store;
